@@ -1,5 +1,5 @@
 //==============================================================================
-// 电子密码锁 - 修正版：状态机直接检测rx_done和换行符
+// 电子密码锁
 //==============================================================================
 
 module top #(
@@ -165,20 +165,24 @@ module top #(
                 //--------------------------------------------------------------
                 // IDLE: 开锁，等待lock
                 //--------------------------------------------------------------
-                IDLE: begin
-                    led_n_reg <= 1;     // LED灭
-                    pwd_cnt   <= 0;
-                    
-                    if (rx_done && is_newline) begin
-                        if (is_lock) begin
-                            state   <= SET_PWD;
-                            cmd_cnt <= 0;
-                        end
-                        else begin
-                            cmd_cnt <= 0;  // 无效命令，清空
-                        end
+              IDLE: begin
+                led_n_reg <= 1;     // LED灭
+                pwd_cnt   <= 0;
+                
+                if (rx_done && is_newline) begin
+                    if (is_lock) begin
+                        state   <= SET_PWD;
+                        cmd_cnt <= 0;
+                    end
+                    else if (is_unlock) begin  // ← 新增：允许从IDLE进入开锁验证
+                        state   <= UNLOCK_PWD;
+                        cmd_cnt <= 0;
+                    end
+                    else begin
+                        cmd_cnt <= 0;  // 无效命令，清空
                     end
                 end
+            end
                 
                 //--------------------------------------------------------------
                 // SET_PWD: 接收3位密码

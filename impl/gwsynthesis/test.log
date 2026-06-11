@@ -16,8 +16,8 @@ WARN  (EX3791) : Expression size 5 truncated to fit in target size 4("D:\Gowin_P
 Compiling module '**'("D:\Gowin_Project\fpga-e-pwdlock-main\fpga-e-pwdlock-main\src\fifo_sc\fifo_sc_top.v":278)
 WARN  (EX3791) : Expression size 25 truncated to fit in target size 24("D:\Gowin_Project\fpga-e-pwdlock-main\fpga-e-pwdlock-main\src\top.v":147)
 WARN  (EX3791) : Expression size 4 truncated to fit in target size 3("D:\Gowin_Project\fpga-e-pwdlock-main\fpga-e-pwdlock-main\src\top.v":158)
-WARN  (EX3791) : Expression size 3 truncated to fit in target size 2("D:\Gowin_Project\fpga-e-pwdlock-main\fpga-e-pwdlock-main\src\top.v":195)
-WARN  (EX3791) : Expression size 3 truncated to fit in target size 2("D:\Gowin_Project\fpga-e-pwdlock-main\fpga-e-pwdlock-main\src\top.v":236)
+WARN  (EX3791) : Expression size 3 truncated to fit in target size 2("D:\Gowin_Project\fpga-e-pwdlock-main\fpga-e-pwdlock-main\src\top.v":199)
+WARN  (EX3791) : Expression size 3 truncated to fit in target size 2("D:\Gowin_Project\fpga-e-pwdlock-main\fpga-e-pwdlock-main\src\top.v":240)
 NOTE  (EX0101) : Current top module is "top"
 [5%] Running netlist conversion ...
 Running device independent optimization ...

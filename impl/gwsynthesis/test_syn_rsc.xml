@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Module name="top" Register="168" Alu="42" Lut="155" Bsram="1" T_Register="234(168)" T_Alu="42(42)" T_Lut="253(155)" T_Bsram="1(1)">
+<Module name="top" Register="168" Alu="42" Lut="160" Bsram="1" T_Register="234(168)" T_Alu="42(42)" T_Lut="259(160)" T_Bsram="1(1)">
  <SubModule name="uart_rx_inst" Register="43" Lut="51" T_Register="43(43)" T_Lut="51(51)"/>
- <SubModule name="uart_tx_inst" Register="23" Lut="47" T_Register="23(23)" T_Lut="47(47)"/>
+ <SubModule name="uart_tx_inst" Register="23" Lut="48" T_Register="23(23)" T_Lut="48(48)"/>
 </Module>
