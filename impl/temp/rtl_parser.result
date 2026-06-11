@@ -1,33 +1,33 @@
 [
  {
-  "InstFile" : "D:/Gowin_Project/e-pwdlock/src/top.v",
-  "InstLine" : 1,
+  "InstFile" : "D:/Gowin_Project/fpga-e-pwdlock-main/fpga-e-pwdlock-main/src/top.v",
+  "InstLine" : 5,
   "InstName" : "top",
-  "ModuleFile" : "D:/Gowin_Project/e-pwdlock/src/top.v",
-  "ModuleLine" : 1,
+  "ModuleFile" : "D:/Gowin_Project/fpga-e-pwdlock-main/fpga-e-pwdlock-main/src/top.v",
+  "ModuleLine" : 5,
   "ModuleName" : "top",
   "SubInsts" : [
    {
-    "InstFile" : "D:/Gowin_Project/e-pwdlock/src/top.v",
-    "InstLine" : 69,
+    "InstFile" : "D:/Gowin_Project/fpga-e-pwdlock-main/fpga-e-pwdlock-main/src/top.v",
+    "InstLine" : 73,
     "InstName" : "fifo_inst",
-    "ModuleFile" : "D:/Gowin_Project/e-pwdlock/src/fifo_sc/fifo_sc_top.v",
+    "ModuleFile" : "D:/Gowin_Project/fpga-e-pwdlock-main/fpga-e-pwdlock-main/src/fifo_sc/fifo_sc_top.v",
     "ModuleLine" : 12,
     "ModuleName" : "fifo_sc"
    },
    {
-    "InstFile" : "D:/Gowin_Project/e-pwdlock/src/top.v",
-    "InstLine" : 36,
+    "InstFile" : "D:/Gowin_Project/fpga-e-pwdlock-main/fpga-e-pwdlock-main/src/top.v",
+    "InstLine" : 40,
     "InstName" : "uart_rx_inst",
-    "ModuleFile" : "D:/Gowin_Project/e-pwdlock/src/uart_rx.v",
+    "ModuleFile" : "D:/Gowin_Project/fpga-e-pwdlock-main/fpga-e-pwdlock-main/src/uart_rx.v",
     "ModuleLine" : 5,
     "ModuleName" : "uart_rx"
    },
    {
-    "InstFile" : "D:/Gowin_Project/e-pwdlock/src/top.v",
-    "InstLine" : 53,
+    "InstFile" : "D:/Gowin_Project/fpga-e-pwdlock-main/fpga-e-pwdlock-main/src/top.v",
+    "InstLine" : 57,
     "InstName" : "uart_tx_inst",
-    "ModuleFile" : "D:/Gowin_Project/e-pwdlock/src/uart_tx.v",
+    "ModuleFile" : "D:/Gowin_Project/fpga-e-pwdlock-main/fpga-e-pwdlock-main/src/uart_tx.v",
     "ModuleLine" : 4,
     "ModuleName" : "uart_tx"
    }

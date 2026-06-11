@@ -1,23 +1,23 @@
 GowinSynthesis start
 Running parser ...
-Analyzing Verilog file 'D:\Gowin_Project\e-pwdlock\src\fifo_sc\fifo_sc_top.v'
-Analyzing Verilog file 'D:\Gowin_Project\e-pwdlock\src\top.v'
-Undeclared symbol 'fifo_empty', assumed default net type 'wire'("D:\Gowin_Project\e-pwdlock\src\top.v":57)
-WARN  (EX3638) : 'fifo_empty' is already implicitly declared on line 57("D:\Gowin_Project\e-pwdlock\src\top.v":66)
-Analyzing Verilog file 'D:\Gowin_Project\e-pwdlock\src\uart_rx.v'
-Analyzing Verilog file 'D:\Gowin_Project\e-pwdlock\src\uart_tx.v'
-Compiling module 'top'("D:\Gowin_Project\e-pwdlock\src\top.v":1)
-Compiling module 'uart_rx'("D:\Gowin_Project\e-pwdlock\src\uart_rx.v":5)
-WARN  (EX3791) : Expression size 17 truncated to fit in target size 16("D:\Gowin_Project\e-pwdlock\src\uart_rx.v":57)
-WARN  (EX3791) : Expression size 5 truncated to fit in target size 4("D:\Gowin_Project\e-pwdlock\src\uart_rx.v":78)
-Compiling module 'uart_tx'("D:\Gowin_Project\e-pwdlock\src\uart_tx.v":4)
-WARN  (EX3791) : Expression size 17 truncated to fit in target size 16("D:\Gowin_Project\e-pwdlock\src\uart_tx.v":39)
-WARN  (EX3791) : Expression size 5 truncated to fit in target size 4("D:\Gowin_Project\e-pwdlock\src\uart_tx.v":49)
-Compiling module '**'("D:\Gowin_Project\e-pwdlock\src\fifo_sc\fifo_sc_top.v":278)
-WARN  (EX3791) : Expression size 25 truncated to fit in target size 24("D:\Gowin_Project\e-pwdlock\src\top.v":135)
-WARN  (EX3791) : Expression size 4 truncated to fit in target size 3("D:\Gowin_Project\e-pwdlock\src\top.v":165)
-WARN  (EX3791) : Expression size 3 truncated to fit in target size 2("D:\Gowin_Project\e-pwdlock\src\top.v":195)
-WARN  (EX3791) : Expression size 3 truncated to fit in target size 2("D:\Gowin_Project\e-pwdlock\src\top.v":227)
+Analyzing Verilog file 'D:\Gowin_Project\fpga-e-pwdlock-main\fpga-e-pwdlock-main\src\fifo_sc\fifo_sc_top.v'
+Analyzing Verilog file 'D:\Gowin_Project\fpga-e-pwdlock-main\fpga-e-pwdlock-main\src\top.v'
+Undeclared symbol 'fifo_empty', assumed default net type 'wire'("D:\Gowin_Project\fpga-e-pwdlock-main\fpga-e-pwdlock-main\src\top.v":61)
+WARN  (EX3638) : 'fifo_empty' is already implicitly declared on line 61("D:\Gowin_Project\fpga-e-pwdlock-main\fpga-e-pwdlock-main\src\top.v":70)
+Analyzing Verilog file 'D:\Gowin_Project\fpga-e-pwdlock-main\fpga-e-pwdlock-main\src\uart_rx.v'
+Analyzing Verilog file 'D:\Gowin_Project\fpga-e-pwdlock-main\fpga-e-pwdlock-main\src\uart_tx.v'
+Compiling module 'top'("D:\Gowin_Project\fpga-e-pwdlock-main\fpga-e-pwdlock-main\src\top.v":5)
+Compiling module 'uart_rx'("D:\Gowin_Project\fpga-e-pwdlock-main\fpga-e-pwdlock-main\src\uart_rx.v":5)
+WARN  (EX3791) : Expression size 17 truncated to fit in target size 16("D:\Gowin_Project\fpga-e-pwdlock-main\fpga-e-pwdlock-main\src\uart_rx.v":57)
+WARN  (EX3791) : Expression size 5 truncated to fit in target size 4("D:\Gowin_Project\fpga-e-pwdlock-main\fpga-e-pwdlock-main\src\uart_rx.v":78)
+Compiling module 'uart_tx'("D:\Gowin_Project\fpga-e-pwdlock-main\fpga-e-pwdlock-main\src\uart_tx.v":4)
+WARN  (EX3791) : Expression size 17 truncated to fit in target size 16("D:\Gowin_Project\fpga-e-pwdlock-main\fpga-e-pwdlock-main\src\uart_tx.v":39)
+WARN  (EX3791) : Expression size 5 truncated to fit in target size 4("D:\Gowin_Project\fpga-e-pwdlock-main\fpga-e-pwdlock-main\src\uart_tx.v":49)
+Compiling module '**'("D:\Gowin_Project\fpga-e-pwdlock-main\fpga-e-pwdlock-main\src\fifo_sc\fifo_sc_top.v":278)
+WARN  (EX3791) : Expression size 25 truncated to fit in target size 24("D:\Gowin_Project\fpga-e-pwdlock-main\fpga-e-pwdlock-main\src\top.v":147)
+WARN  (EX3791) : Expression size 4 truncated to fit in target size 3("D:\Gowin_Project\fpga-e-pwdlock-main\fpga-e-pwdlock-main\src\top.v":158)
+WARN  (EX3791) : Expression size 3 truncated to fit in target size 2("D:\Gowin_Project\fpga-e-pwdlock-main\fpga-e-pwdlock-main\src\top.v":195)
+WARN  (EX3791) : Expression size 3 truncated to fit in target size 2("D:\Gowin_Project\fpga-e-pwdlock-main\fpga-e-pwdlock-main\src\top.v":236)
 NOTE  (EX0101) : Current top module is "top"
 [5%] Running netlist conversion ...
 Running device independent optimization ...
@@ -35,6 +35,6 @@ Running technical mapping ...
 [75%] Tech-Mapping Phase 2 completed
 [80%] Tech-Mapping Phase 3 completed
 [90%] Tech-Mapping Phase 4 completed
-[95%] Generate netlist file "D:\Gowin_Project\e-pwdlock\impl\gwsynthesis\test.vg" completed
-[100%] Generate report file "D:\Gowin_Project\e-pwdlock\impl\gwsynthesis\test_syn.rpt.html" completed
+[95%] Generate netlist file "D:\Gowin_Project\fpga-e-pwdlock-main\fpga-e-pwdlock-main\impl\gwsynthesis\test.vg" completed
+[100%] Generate report file "D:\Gowin_Project\fpga-e-pwdlock-main\fpga-e-pwdlock-main\impl\gwsynthesis\test_syn.rpt.html" completed
 GowinSynthesis finish

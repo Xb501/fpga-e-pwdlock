@@ -1,9 +1,9 @@
--d D:\Gowin_Project\e-pwdlock\impl\gwsynthesis\test.vg
+-d D:\Gowin_Project\fpga-e-pwdlock-main\fpga-e-pwdlock-main\impl\gwsynthesis\test.vg
 -p GW2A-18C-PBGA256-8
 -pn GW2A-LV18PG256C8/I7
--cst D:\Gowin_Project\e-pwdlock\src\test.cst
--cfg D:\Gowin_Project\e-pwdlock\impl\pnr\device.cfg
--sdc D:\Gowin_Project\e-pwdlock\src\test.sdc
+-cst D:\Gowin_Project\fpga-e-pwdlock-main\fpga-e-pwdlock-main\src\test.cst
+-cfg D:\Gowin_Project\fpga-e-pwdlock-main\fpga-e-pwdlock-main\impl\pnr\device.cfg
+-sdc D:\Gowin_Project\fpga-e-pwdlock-main\fpga-e-pwdlock-main\src\test.sdc
 -bit
 -tr
 -ph
